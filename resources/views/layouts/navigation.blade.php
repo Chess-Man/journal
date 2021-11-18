@@ -4,7 +4,7 @@
         <div class="flex justify-between h-16">
             <div class="flex">
                 {{--sidebar --}}
-                <div class="md:flex flex-row top-0 hidden  left-0 fixed md:min-h-screen w-full">
+                <div class="md:flex flex-row top-0 hidden left-0 fixed md:min-h-screen">
                   <div class="flex flex-col w-full md:w-72 text-white flex-shrink-0" style="background:#0f0f0f ">
                     <div class="flex-shrink-0 px-8 py-4 flex flex-row items-center justify-between">
                       <a href="#" class="text-lg flex items-center gap-2 font-semibold tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">
