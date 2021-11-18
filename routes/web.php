@@ -50,6 +50,10 @@ Route::get('/profile', function () {
     return view('links.profile');
 })->name('profile');
 
+Route::get('/student', function () {
+    return view('links.student');
+})->name('student');
+
 
 /* Route::get('/dashboard', function () {
     return view('dashboard');
