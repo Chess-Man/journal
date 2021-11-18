@@ -17,8 +17,42 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+})->name('dashboard');
+
+Route::get('/subject', function () {
+    return view('links.subject');
+})->name('subject');
+
+Route::get('/task', function () {
+    return view('links.task');
+})->name('task');
+
+Route::get('/file', function () {
+    return view('links.file');
+})->name('file');
+
+Route::get('/grades', function () {
+    return view('links.grades');
+})->name('grades');
+
+Route::get('/account', function () {
+    return view('links.account');
+})->name('account');
+
+Route::get('/notifications', function () {
+    return view('links.notifications');
+})->name('notifications');
+
+Route::get('/profile', function () {
+    return view('links.profile');
+})->name('profile');
+
+
+/* Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard'); */
 
 require __DIR__.'/auth.php';
