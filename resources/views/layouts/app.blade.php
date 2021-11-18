@@ -21,7 +21,7 @@
             @include('layouts.navigation')
 
             <!-- Page Heading -->
-                <div class="sm:w-3/4 mx-4 md:mx-4 md:ml-72 py-6 px-4 sm:px-6">
+                <div class="md:w-3/4 mx-4 md:mx-4 md:ml-72 py-6 px-4 sm:px-6">
                     {{ $header }}
                 </div>
 
